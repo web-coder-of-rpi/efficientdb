@@ -1,0 +1,17 @@
+COL{"username" ~~ A collum ~~
+    ENTRY{STR; 0; ~~ An entry ~~
+        "thecoder123"
+    };
+    ENTRY{STR; 1;
+        "c++isfun"
+    };
+};
+COL{"password"
+    ENTRY{STR; 0; ~~ The row id is the same as the "thecoder123" entry; therefore it is on the same row. ~~
+        "pip_install_efficientdb"
+    };
+    ENTRY{STR; 1;
+        "cout_<<_%%dq\\this_is_a_password%%bs\\n%%dq\\_<<_endl;"
+    };
+};
+STOP; ~~ The STOP; flag tells the parser to stop and return the results ~~
